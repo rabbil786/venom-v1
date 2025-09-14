@@ -8,7 +8,7 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7595804649:AAGA9QSbiKML1gM9vUZx42VTkf0gP6W2LIk')
+bot = telebot.TeleBot('8143945718:AAGxhqt3T8Q-7Vl-H1xRAh3-iKwJM78Jdns')
 
 # Admin user IDs
 admin_id = ["7657591035"]
@@ -451,6 +451,7 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
+
 
 
 
